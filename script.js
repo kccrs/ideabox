@@ -1,4 +1,4 @@
-//Variables
+   //Variables
 var $saveButton = $('.save-button');
 var $titleInput = $('.title-input');
 var $bodyInput = $('.body-input');
@@ -11,7 +11,7 @@ function Idea (title, body, id, quality) {
   this.title = title;
   this.body = body;
   this.id = id || Date.now();
-  this.quality = quality || 'swill';
+  this.quality = quality || 's«will';
 }
 
 function clearInputFields () {
